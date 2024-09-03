@@ -45,7 +45,9 @@
 }
 
 .TransparentBlackButton-component:hover {
-    transform: scale(1.1);
+    transform: scale(1.1); /* Aumenta o botão em 10% */
+    color: var(--color-logo-gradB); /* Opcional: Muda a cor do texto ao passar o mouse */
+    border: 3px solid var(--color-logo-gradB);
 }
 
 

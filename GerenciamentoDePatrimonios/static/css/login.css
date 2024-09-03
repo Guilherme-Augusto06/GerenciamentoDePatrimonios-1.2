@@ -83,6 +83,10 @@ main {
     border-radius: 10px;
     opacity: 0px;
     font-size: 30px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.btn-login:hover {
+    transform: scale(1.1); /* Aumenta o botão em 10% */
 }
 .titleLogin{
     font-size: 64px;

@@ -22,3 +22,6 @@ def faq(request):
 
 def welcomeHomepage(request):
     return render(request, 'welcomeHomepage.html')
+
+def itens(request):
+    return render(request, 'itens.html')

@@ -8,4 +8,5 @@ urlpatterns = [
         path('profile', views.profile, name="profile"),       # Inclui as urls do app blog
         path('faq', views.faq, name="faq"),                 # Inclui as urls do app blog
         path('welcomeHomepage', views.welcomeHomepage, name="welcomeHomepage"),   # Inclui as urls do app blog
+        path('itens', views.itens, name="itens"),           # Inclui as urls do app blog
 ]
